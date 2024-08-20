@@ -1,0 +1,267 @@
+{ "tabs": [
+    {
+    "n_tab":1,
+    "tabTit": "Vol.1",
+    "name": "nav-m1",
+    "title": "ENERGIA Demo 1991",
+    "text": " : DIY'ed 4-track (tape) recording by Carlos ('San'). Early days, only 3 mics used, played live in the old 'El Patio' bar in Barakaldo. Tape --> digital + (quick) re-mastering.",
+    "active": "show active",
+    "collapse": "collapse",
+    "tabId": "Tracks",
+    "tracks": [
+      {
+        "trackId":1,
+        "name": "El Tren",
+        "year": " (1991) - <a class='btn-link on-yellow' href='https://youtu.be/ExVI6DzAgkI?si=OIYDONVhZi0DX3r-' target='_blank' rel='noopener noreferrer'>[ Video ]</a>",
+        "file": "Zois Ande Larres - Vol.1 - 01 - El Tren.mp3"
+      },
+      {
+        "trackId":2,
+        "name": "1984",
+        "year": " (1991)",
+        "file": "Zois Ande Larres - Vol.1 - 02 - 1984.mp3"
+      },
+      {
+        "trackId":3,
+        "name": "Insomnio",
+        "year": " (1991)",
+        "file": "Zois Ande Larres - Vol.1 - 03 - Insomnio.mp3"
+      },
+      {
+        "trackId":4,
+        "name": "Bajo El Cielo Rojo",
+        "year": " (1991) - <a class='btn-link on-yellow' href='https://youtu.be/NpnWzzOyqiw?si=FCgItKB0eCOqlDmA' target='_blank' rel='noopener noreferrer'>[ Video ]</a>",
+        "file": "Zois Ande Larres - Vol.1 - 04 - Bajo El Cielo Rojo.mp3"
+      },
+      {
+        "trackId":5,
+        "name": "Presidiario",
+        "year": " (1991)",
+        "file": "Zois Ande Larres - Vol.1 - 05 - Presidiario.mp3"
+      },
+      {
+        "trackId":6,
+        "name": "Subterraneo",
+        "year": " (1991)",
+        "file": "Zois Ande Larres - Vol.1 - 06 - Subterraneo.mp3"
+      },
+      {
+        "trackId":7,
+        "name": "69 (inst.)",
+        "year": " (1991)",
+        "file": "Zois Ande Larres - Vol.1 - 07 - 69.mp3"
+      }
+    ]
+    },
+    {
+      "n_tab":2,
+      "tabTit": "Vol.2",
+      "name": "nav-m2",
+      "title": "Belan Demo 1993",
+      "text": " : First foray into a studio at <a class='btn-link on-yellow' href='https://www.facebook.com/belanestudio' target='_blank' rel='noopener noreferrer'>Belan</a> (Barakaldo). Tape --> digital + (quick) re-mastering.",
+      "active": "",
+      "collapse": "collapse show",
+      "tabId": "",
+      "tracks": [
+        {
+          "trackId":1,
+          "name": "El Barco",
+          "year": " (1993)",
+          "file": "Zois Ande Larres - Vol.2 - 01 - El Barco.mp3"
+        },
+        {
+          "trackId":2,
+          "name": "Esa Chispa",
+          "year": " (1993) - <a class='btn-link on-yellow' href='https://youtu.be/cIJmyf0zkiI?si=8OubG4ewAqBXFJkj' target='_blank' rel='noopener noreferrer'>[ Video ]</a>",
+          "file": "Zois Ande Larres - Vol.2 - 02 - Esa Chispa.mp3"
+        },
+        {
+          "trackId":3,
+          "name": "Iscariote",
+          "year": " (1993)",
+          "file": "Zois Ande Larres - Vol.2 - 03 - Iscariote.mp3"
+        },
+        {
+          "trackId":4,
+          "name": "El Perdedor",
+          "year": " (1993) <small><small>Longest song ever, been warned!</small></small>",
+          "file": "Zois Ande Larres - Vol.2 - 04 - El Perdedor.mp3"
+        }
+      ]
+      },
+      {
+        "n_tab":3,
+        "tabTit": "Vol.3",
+        "name": "nav-m3",
+        "title": "Demos 1994",
+        "text": " : 'La Casa Vieja' was recorded in Larrabetzu for the Berri-Otxoak <a class='btn-link on-yellow' href='https://www.discogs.com/release/14265953-Various-Okupazioa' target='_blank' rel='noopener noreferrer'>'Okupacion' tape</a> compilation. &nbsp;&nbsp;The other 3 tracks were recorded on a 4-track by <a class='btn-link on-yellow' href='https://youtube.com/channel/UCMhIQgXodIWKEFRh4KwSPiQ?si=X3aveR1bq1tSBLLo' target='_blank' rel='noopener noreferrer'>Txabi Palacios</a> in the Zois rehearsal room in Retuerto (Barakaldo).",
+        "active": "",
+        "collapse": "collapse show",
+        "tabId": "",
+        "tracks": [
+          {
+            "trackId":1,
+            "name": "La Casa Vieja",
+            "year": " (1994)",
+            "file": "Zois Ande Larres - Vol.3 - 01 - La Casa Vieja.mp3"
+          },
+          {
+            "trackId":2,
+            "name": "No Lo Se",
+            "year": " (1994)",
+            "file": "Zois Ande Larres - Vol.3 - 02 - No Lo Se.mp3"
+          },
+          {
+            "trackId":3,
+            "name": "Punto De Mira",
+            "year": " (1994)",
+            "file": "Zois Ande Larres - Vol.3 - 03 - Punto De Mira.mp3"
+          },
+          {
+            "trackId":4,
+            "name": "Y Poder ...",
+            "year": " (1994)",
+            "file": "Zois Ande Larres - Vol.3 - 04 - Y Poder.mp3"
+          }
+        ]
+        },
+        {
+          "n_tab":4,
+          "tabTit": "Vol.4",
+          "name": "nav-m4",
+          "title": "Live in Santurtzi | Nov-1992",
+          "text": " : Recorded at 'Munich 74' bar, straight feed from mixing desk (let there be dragons!). Tape --> digital + (quick) re-mastering.",
+          "active": "",
+          "collapse": "collapse show",
+          "tabId": "",
+          "tracks": [
+            {
+              "trackId":1,
+              "name": "Insomnio (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 01 - Insomnio (live).mp3"
+            },
+            {
+              "trackId":2,
+              "name": "Solamente (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 02 - Solamente (live).mp3"
+            },
+            {
+              "trackId":3,
+              "name": "El Barco (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 03 - El Barco (live).mp3"
+            },
+            {
+              "trackId":4,
+              "name": "Iscariote (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 04 - Iscariote (live).mp3"
+            },
+            {
+              "trackId":5,
+              "name": "1984 (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 05 - 1984 (live).mp3"
+            },
+            {
+              "trackId":6,
+              "name": "Me Lo Advirtieron (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 06 - Me Lo Advirtieron (live).mp3"
+            },
+            {
+              "trackId":7,
+              "name": "El Perdedor (live)",
+              "year": " (1992) - <small><small>very long!</small></small>",
+              "file": "Zois Ande Larres - Vol.4 - 07 - El Perdedor (live).mp3"
+            },
+            {
+              "trackId":8,
+              "name": "La Competicion (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 08 - La Competicion (live).mp3"
+            },
+            {
+              "trackId":9,
+              "name": "Blues (live)",
+              "year": " (1992)",
+              "file": "Zois Ande Larres - Vol.4 - 09 - Blues (live).mp3"
+            }
+          ]
+          },
+          {
+            "n_tab":5,
+            "tabTit": "Vol.5",
+            "name": "nav-m5",
+            "title": "Live in 'Las Chamas' | Feb-1994",
+            "text": " : Gig to raise funds for <a class='btn-link on-yellow' href='https://www.haladzipo.org/' target='_blank' rel='noopener noreferrer'>Hala Dzipo</a>. Straight feed from mixing desk (you've been warned!) Tape --> digital + (quick) re-mastering.",
+            "active": "",
+            "collapse": "collapse show",
+            "tabId": "",
+            "tracks": [
+              {
+                "trackId":1,
+                "name": "Intro-Me Lo Advirtieron (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 01 - Intro-Me Lo Advirtieron (live).mp3"
+              },
+              {
+                "trackId":2,
+                "name": "Y Poder (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 02 - Y Poder (live).mp3"
+              },
+              {
+                "trackId":3,
+                "name": "Solamente (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 03 - Solamente (live).mp3"
+              },
+              {
+                "trackId":4,
+                "name": "1984 (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 04 - 1984 (live).mp3"
+              },
+              {
+                "trackId":5,
+                "name": "Punto De Mira (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 05 - Punto De Mira (live).mp3"
+              },
+              {
+                "trackId":6,
+                "name": "Iscariote (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 06 - Iscariote (live).mp3"
+              },
+              {
+                "trackId":7,
+                "name": "Insomnio (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 07 - Insomnio (live).mp3"
+              },
+              {
+                "trackId":8,
+                "name": "Subterraneo (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 08 - Subterraneo (live).mp3"
+              },
+              {
+                "trackId":9,
+                "name": "Blues (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 09 - Blues (live).mp3"
+              },
+              {
+                "trackId":10,
+                "name": "69 (live)",
+                "year": " (1994)",
+                "file": "Zois Ande Larres - Vol.5 - 10 - 69 (live).mp3"
+              }
+            ]
+            }
+  ]
+}

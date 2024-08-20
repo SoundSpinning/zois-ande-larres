@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HTML5 Music Badge | MB V0.4 Jul-2024
+written by Sound Spinning | https://github.com/SoundSpinning 
+-->
+
+<!-- HEAD info starts here ... -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Music Badge | Zois Ande Larres</title>
+  <meta name="description" content="Music Badge App by Sound Spinning"/>
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Custom CSS -->
+  <link href="css/audio.css" rel="stylesheet" type='text/css'>
+  <!-- Custom CSS always last style entry ! -->
+
+</head>
+<!-- HEAD ends here ... -->
+
+<!-- BODY info starts here ... -->
+<body class="container px-0 land-1" >
+<!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+  
+  <div id="" class="container outer land-1 back m-0 pt-3 pb-1">
+
+    <div class="row no-show">
+      <a class="col-4 ps-3 pe-0 justify-content-center"  style="text-decoration: none;" href="#" data-bs-toggle="modal" data-bs-target="#modal-Cover" data-bs-whatever="cover" data-bs-dismiss="modal" aria-hidden="true">
+        <span class="btn-link" style="text-decoration: none;"><small>click logo +pics</small></span>
+        <img class="img-fluid d-block" style="max-height: 150px; margin-bottom: 0.5rem;" src="assets/logo_zois_ande_larres.jpg" alt="Zois Ande Larres logo">
+      </a>
+      <span class="no-show navbar-txt col-8 ps-0">
+        <a class="btn-link" style="text-decoration: none;" href="#" rel="noopener noreferrer"><h1 class="mb-0">Zois Ande Larres</h1></a>
+        <p class="mb-0 pt-1"><span class="sub-head">Rock band from Barakaldo<br></span>
+          <!-- <span class="my-0 p-0" data-bs-title="envelope-closed" aria-hidden="true"><i class="bi bi-envelope-fill"></i></span><a class="btn-link" href="mailto:soundspinning@hotmail.com">&nbsp;&nbsp;soundspinning@hotmail.com</a> -->
+        </p>
+        <p class="list-tit mt-sm-3">Demos <small>(1991-1994)</small></p>
+      </span>
+    </div>
+
+    <h2 class="no-show text-sm-left mb-1 d-flex justify-content-between">
+      <!-- Nav menu for TABS -->
+      <!-- JS generated -->
+      <div id="nav-tab" class="nav nav-tabs list-tit" role="tablist">
+      </div>
+      <!-- INFO button -->
+      <span data-bs-toggle="tooltip" title="Info" data-bs-placement="left" data-bs-delay="300">
+        <button type="button" class="btn btn-secondary btn-info px-2" data-bs-toggle="modal" data-bs-target="#modal-Info" data-bs-whatever="Info" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-info-circle-fill"></i></button>
+      </span>
+    </h2>
+
+    <!-- Main TABs content -->
+    <div class="tab-content" id="nav-tabContent">
+    <!-- JS generated -->
+
+    <!-- TAB-feedback -->
+    <div class="tab-pane fade" id="nav-feedback" role="tabpanel" aria-labelledby="nav-feedback-tab">
+      <!-- novalidate -->
+      <form class="needs-validation" 
+        action="https://formspree.io/f/mzbkwyzw"
+        method="POST"
+        enctype="multipart/form-data">
+        <input name="_redirectTo" type="hidden" value="https://soundspinning.github.io/zois-ande-larres">
+        <!-- Subject as hidden -->
+        <input name="_subject" type="hidden" value="Zois Ande Larres: Demos">
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required name="_replyto">
+          <div class="invalid-feedback">
+            Please enter a valid email.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="messageInput" class="form-label">Message <small>(pls send any feedback)</small></label>
+          <textarea class="form-control" id="messageInput" rows="3" placeholder="write your feedback ..." required name="message"></textarea>
+          <div class="invalid-feedback">
+            Please enter a message.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary btn-link" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- TAB-feedback ends-->
+    
+    </div>
+    <!-- Main TABs content ends -->
+    
+    
+    <!-- FOOTER -->
+    <p class="no-show m-0 pt-1 ps-1 d-flex justify-content-between" style="color: grey;">
+      <small>MB v0.4 by &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small>
+    </p>
+    <!-- FOOTER ends -->
+  </div>
+  <!-- MAIN container ends -->
+
+
+  <!-- ALL MODALS from here -->
+  <!-- modal dialogues -->
+  <div class="modal fade" id="modal-Cover" tabindex="-1" role="dialog" aria-labelledby="modal-Cover" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-3 pb-0 px-0 d-block">
+          <h4 class="modal-title mb-1 ps-2">Zois Ande Larres - memorabilia</h4>
+          <div class="modal-body m-0 p-0">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_1.jpg" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_7.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_8.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_4.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/letter.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_2.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_3.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_5.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_6.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_1.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_2.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_3.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois_poster.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_4.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_5.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_6.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_7.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/gig_8.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/okupacion.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/zois-cartoon.jpg" loading="lazy" alt="Zois Ande Larres music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/jes.jpg" loading="lazy" alt="Zois Ande Larres music">
+          </div>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+          <h4 class="modal-title my-1 ps-2">Zois Ande Larres - memorabilia</h4>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <!-- INFO modal -->
+  <div class="modal fade" id="modal-Info" tabindex="-1" role="dialog" aria-labelledby="modal-Info" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-2 pb-1 px-0 d-block">
+          <h4 class="modal-title my-1 ps-3">Zois Ande Larres - Bio</h4>
+          <div class="modal-body mx-0 pt-1 pb-0">
+            <ul class="mb-0">
+              90s rock band from Barakaldo (Basque Country).
+              <br>
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/members.jpg" alt="Zois Ande Larres music">
+              <br>
+              Link to 
+              <a href="assets/media/sm_1993_dossier zois ande larres.pdf" target="_blank" rel="noopener noreferrer" class="btn-link" >Dossier PDF 1993</a>
+              <br>
+              Link to 
+              <a href="assets/media/letter.jpg" target="_blank" rel="noopener noreferrer" class="btn-link" >promotional letter for Demos</a>
+              <br><br>
+              All work Tape ==> digital + (quick) re-mastering and app done by <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a> in Brighton (UK)
+            </ul>
+            <br>
+            <img class="img-fluid mx-auto d-block" src="assets/media/zois-cartoon.jpg" alt="Zois Ande Larres cartoon">
+          </div>
+        </div>
+
+        <div class="modal-header border-0 pt-2 pb-1 px-0 d-block">
+          <h4 class="modal-title my-1 ps-3">Music Badge - Origins of App</h4>
+          <div class="modal-body mx-0 pt-1 pb-0">
+            <ul class="mb-0">
+              <li>It started as a simple 'blind audio test' to compare mastered tracks.<br>
+                <a href="https://soundspinning.tumblr.com/post/179238398306/audio-blind-test-app" target="_blank" rel="noopener noreferrer" class="btn-link" >Example Blind Audio Test</a>.
+              </li>
+              <li>Then it grew into a production app with bands.<br>
+                <a href="https://soundspinning.github.io/SweetJonny2021/" target="_blank" rel="noopener noreferrer" class="btn-link">Mixing, production band example</a>.
+              </li>
+              <li><em>Objectives</em>: to form a collaborative production process between the engineer and the band, so that progress is made via constructive feedback.</li>
+              <li>All tracks have been loudness normalised to a similar level as currently used by Spotify &amp; YouTube to set a fair comparison. This is a fairly recent change in music streamming, which may be the beginning of the end of the <em>Loudness War</em>.</li>
+              <li>The above means that you can open those apps in parallel, set their volume to max and compare (roughly) to the mixes. Use the main master control in your system to turn the music up / down.</li>
+              <li>This player allows for switching across tracks by clicking the play button. E.g. you can switch back / forth between tabs to compare versions of the same song.</li>
+              <li>When sending <em>Feedback</em> via the form, pls state the system you used for listening: phone, tablet, headphones, large speakers, car, etc; so that I can get some context. Have fun !</li>
+              <li>Some reading (if you're keen): <a href="https://www.masteringthemix.com/blogs/learn/76296773-mastering-audio-for-soundcloud-itunes-spotify-and-youtube" target="_blank" rel="noopener noreferrer" class="btn-link">Audio for Streamming Services</a> | <a href="https://dynamicrangeday.co.uk/about/" target="_blank" rel="noopener noreferrer" class="btn-link">Loudness War</a> | <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/eqloud.html" target="_blank" rel="noopener noreferrer" class="btn-link">Equal Loudness Curves</a></li>
+            </ul>
+          </div>
+          <p class="my-1 ps-2" style="color: lightgray;">MB <small>V0.4 &nbsp;Jul-2024 &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- INFO modal ends -->
+
+  <!-- LYRICS modals -->
+  <div class="modal fade" id="modal-T1-1" tabindex="-1" role="dialog" aria-labelledby="modal-T1-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">El Tren (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/el_tren.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-2" tabindex="-1" role="dialog" aria-labelledby="modal-T1-2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">1984 (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/1984.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-3" tabindex="-1" role="dialog" aria-labelledby="modal-T1-3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Insomnio (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/insomnio.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-4" tabindex="-1" role="dialog" aria-labelledby="modal-T1-4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Bajo El Cielo Rojo (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/cielo_rojo.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-5" tabindex="-1" role="dialog" aria-labelledby="modal-T1-5Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">El Presidiario (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/el_presidiario.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-6" tabindex="-1" role="dialog" aria-labelledby="modal-T1-6Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">En El Subterraneo (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/subterraneo.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-7" tabindex="-1" role="dialog" aria-labelledby="modal-T1-7Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">69 (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Instrumental
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+
+  <div class="modal fade" id="modal-T2-1" tabindex="-1" role="dialog" aria-labelledby="modal-T2-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">El Barco (1993)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T2-2" tabindex="-1" role="dialog" aria-labelledby="modal-T2-2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Esa Chispa (1993)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T2-3" tabindex="-1" role="dialog" aria-labelledby="modal-T2-3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Iscariote (1993)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T2-4" tabindex="-1" role="dialog" aria-labelledby="modal-T2-4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">El Perdedor (1993)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T3-1" tabindex="-1" role="dialog" aria-labelledby="modal-T3-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">La Casa Vieja (1994)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T3-2" tabindex="-1" role="dialog" aria-labelledby="modal-T3-2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">No Lo Se (1994)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T3-3" tabindex="-1" role="dialog" aria-labelledby="modal-T3-3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Punto De Mira (1994)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T3-4" tabindex="-1" role="dialog" aria-labelledby="modal-T3-4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Y Poder ... (1994)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T4-1" tabindex="-1" role="dialog" aria-labelledby="modal-T4-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Insomnio (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/insomnio.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T4-5" tabindex="-1" role="dialog" aria-labelledby="modal-T4-5Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">1984 (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/1984.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T4-6" tabindex="-1" role="dialog" aria-labelledby="modal-T4-6Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Bajo El Cielo Rojo (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/cielo_rojo.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T5-1" tabindex="-1" role="dialog" aria-labelledby="modal-T5-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Bajo El Cielo Rojo (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/cielo_rojo.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T5-4" tabindex="-1" role="dialog" aria-labelledby="modal-T5-4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">1984 (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/1984.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T5-7" tabindex="-1" role="dialog" aria-labelledby="modal-T5-7Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Insomnio (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/insomnio.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T5-8" tabindex="-1" role="dialog" aria-labelledby="modal-T5-8Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Subterraneo (1991)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              <img class="rounded img-fluid mx-auto d-block" src="assets/media/subterraneo.jpg" loading="lazy" alt="Zois Ande Larres music">
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="#" rel="noopener noreferrer">Zois Ande Larres</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <!-- /.modal-content -->
+</div>
+<!-- /.modal-dialog -->
+
+  </div>
+  <!-- LYRICS modals end -->
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap CDNs -->
+  <!-- Bootstrap 5.3 Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+
+  <!-- CUSTOM JS -->
+  <script src="js/tracks.js"></script>
+  <script src="js/audio.js"></script>
+
+</body>
+<!-- BODY ends here ... -->
+</html>
