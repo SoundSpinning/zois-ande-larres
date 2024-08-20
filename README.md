@@ -13,6 +13,6 @@ Small music web app for artists/bands to follow mixing/mastering featuring:
 * Download link [ if applicable ]
 * Feedback form [ 'Hi' tab ]
 
-<a href="https://soundspinning.github.io/sound-spinning/"><img src="./assets/media/music_badge.jpg" alt="Zois Ande Larres Music Badge"></a>
+<a href="https://soundspinning.github.io/zois-ande-larres/"><img src="./assets/media/music_badge.jpg" alt="Zois Ande Larres Music Badge"></a>
 
 ---
